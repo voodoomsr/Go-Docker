@@ -3,4 +3,9 @@
     xsi:noNamespaceSchemaLocation="cruise-config.xsd" schemaVersion="87">
     <server artifactsdir="artifacts" agentAutoRegisterKey="388b633a88de126531afa41eff9aa69e">
     </server>
+    <config-repos>
+        <config-repo plugin="yaml.config.plugin">
+            <git url="git@github.com:slincastro/Pipelines.git" />
+        </config-repo>
+    </config-repos>
 </cruise>

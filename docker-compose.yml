@@ -15,3 +15,10 @@ services:
       dockerfile: Dockerfile
     links:
       - server
+  pythonagent:
+    image: openjdk
+    build:
+      context: ./gocd/pythonAgent/
+      dockerfile: Dockerfile
+    links:
+      - server
