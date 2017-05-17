@@ -25,6 +25,7 @@ RUN apk add --update \
     py-pip \
     build-base \
   && pip install virtualenv \
+  && pip install nose \
   && rm -rf /var/cache/apk/*
 
 

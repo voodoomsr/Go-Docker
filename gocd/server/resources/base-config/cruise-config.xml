@@ -5,7 +5,7 @@
     </server>
     <config-repos>
         <config-repo plugin="yaml.config.plugin">
-            <git url="git@github.com:slincastro/Pipelines.git" />
+            <git url="https://github.com/slincastro/Pipelines.git" />
         </config-repo>
     </config-repos>
 </cruise>
