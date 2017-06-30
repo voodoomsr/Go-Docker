@@ -1,7 +1,7 @@
 version: '2'
 services:
   server:
-    image: registry.ng.bluemix.net/mobcontainers/bci-gocd-server:0.0.6
+    image: pibot/gocd-server
     build:
       context: ./gocd/server/
       dockerfile: Dockerfile
@@ -9,7 +9,7 @@ services:
       - 80:8153
       - 443:8154
   agent:
-    image: openjdk
+    image: pibot/gocd-agent
     build:
       context: ./gocd/agent/
       dockerfile: Dockerfile
