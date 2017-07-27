@@ -27,6 +27,7 @@ RUN apk add --update \
   && pip install virtualenv \
   && pip install nose \
   && pip install mock \
+  && pip install coverage \
   && rm -rf /var/cache/apk/*
 
 
